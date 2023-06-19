@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista zadań</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <h1 class="body__header">Lista zadań</h1>
+    <form class="form js-form">
+        <div class="form__gridContainer ">
+            <div class="form__containerItem">
+                <div class="containerItem--fontSize">Dodaj nowe zadanie
+                </div>
+            </div>
+            <div class="form__containerItem">
+                <div class="form__containerItem--buttons">
+                    <input placeholder="Co jest do zrobienia?" class="form__input js-newTask">
+                    <button class="form__button">Dodaj zadanie
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="form__gridContainer">
+        <div class="form__containerItem">
+            <div class="containerItem--fontSize">Lista zadań</div>
+        </div>
+        <div class="form__containerItem">
+            <div class="form__containerList">
+                <ul class="js-tasks"></ul>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>

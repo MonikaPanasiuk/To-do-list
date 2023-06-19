@@ -1,0 +1,13 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ece9e9;
+
+}
+
+.body__header {
+    font-weight: bold;
+    font-size: 30px;
+}
