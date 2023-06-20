@@ -47,10 +47,10 @@
             <li class="form__list">
 
         <div class="form__listItem">
-            <div><button class="form__buttonDone js-done">wykonane</button></div>
+            <div><button class="form__buttonDone js-done">✅</button></div>
             <div class="${task.done ? "form__listItem--done" : ""}">
             ${task.content}</div>
-            <div><button class="form__buttonRemove js-remove">usuń</button></div>
+            <div><button class="form__buttonRemove js-remove">❌</button></div>
         </div>
             
             </li>
