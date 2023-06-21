@@ -37,21 +37,14 @@
   
 }
 
-@media (max-width:769px) {
-  .form__containerItem--buttons {
-    grid-template-columns: 1fr;
-  }
-}
-
-
 .form__input {
-  padding: 12px;
+  padding: 10px;
   border-color: #ece9e9;
 }
 
 
 .form__button {
-  margin-right: 20px;
+  padding: 10px;
   background-color: #008080;
   color: #ffffff;
   border: none;
@@ -72,8 +65,6 @@
 
 .form__listItem--done {
   text-decoration: line-through;
-  
-  
 } 
 
 .form__buttonDone {
@@ -81,14 +72,13 @@
   margin:  5px;
   border: none;
   background-color: white;
-  font-size: 30px;
-  
-  
+  font-size: 25px;
+   
 }
 
 .form__buttonRemove {
   border: none;
   background-color: white;
-  font-size: 20px;
+  font-size: 15px;
 }
 
