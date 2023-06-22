@@ -1,5 +1,5 @@
 # To do list
-## This is miniaplication of "To do list", with full full functionality like adding new tasks, marking task as done or deleting tasks.
+## This is miniaplication "To do list", with functionality like adding new tasks, marking task as done or deleting tasks.
 ![To do list] ()
 ### Technology used:
 - HTML
