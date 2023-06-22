@@ -11,7 +11,7 @@
 }
 
 @media(max0width:767px) {
-  .form__gridContainer{
+  .form__gridContainer {
     grid-template-columns: 1fr;
   }
 }
@@ -37,11 +37,16 @@
   
 }
 
+@media (max-width:767px) {
+  .form__containerItem--buttons {
+    grid-template-columns: 1fr;
+  }
+}
+
 .form__input {
   padding: 10px;
   border-color: #ece9e9;
 }
-
 
 .form__button {
   padding: 10px;
