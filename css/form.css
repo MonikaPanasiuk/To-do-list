@@ -8,10 +8,11 @@
   margin-bottom: 5px;
   word-break: break-word;
 }
+
 @media (max-width:767px) {
   .form__fieldset--newTask {
-      grid-template-columns: 1fr;
-}
+    grid-template-columns: 1fr;
+  }
 }
 
 .form__input {
@@ -22,34 +23,36 @@
   padding: 10px;
   background-color: #008080;
   color: #ffffff;
-  border-style:  none;
+  border-style: none;
 }
 
 
-.form__listItem{
- display: grid;
- grid-template-columns: auto 1fr auto;
- align-items: center;
- border-bottom: solid 2px #ece9e9;
- word-break: break-word;
+.form__listItem {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  border-bottom: solid 2px #ece9e9;
+  word-break: break-word;
 }
 
 .form__listItem--done {
   text-decoration: line-through;
-} 
+  font-weight: normal;
+  font-size: 20px;
+
+}
 
 .form__buttonDone {
   padding: 5px;
-  margin:  5px;
+  margin: 5px;
   border: none;
   background-color: white;
-  font-size: 25px;
-   
+  font-size: 20px;
+
 }
 
 .form__buttonRemove {
   border: none;
   background-color: white;
-  font-size: 15px;
+  font-size: 10px;
 }
-
