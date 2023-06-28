@@ -33,8 +33,7 @@
   align-items: center;
   border-bottom: solid 2px #ece9e9;
   word-break: break-word;
-  font-weight: normal;
-  font-size: 16px;
+  
 }
 
 .form__listItem--done {
