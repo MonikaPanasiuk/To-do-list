@@ -1,0 +1,10 @@
+.task__list {
+    display: grid;
+    grid-gap: 1px;
+    list-style: none;
+   
+}
+.taskList__list {
+    list-style: none;
+    padding: 20px;
+}

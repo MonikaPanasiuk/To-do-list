@@ -1,71 +1,37 @@
-.form {
-  padding: 1px;
-  border-radius: 4px;
-}
-
-.form__gridContainer {
-  display: grid;
-  margin-top: 15px;
-  gap : 1px;
-  
-}
-
-@media(max0width:767px) {
-  .form__gridContainer {
-    grid-template-columns: 1fr;
-  }
-}
-
-.form__containerItem {
-  padding: 25px;
-  font-size:15px;
-  background-color: white;
-  word-break: break-word;
-}
-
-
-.containerItem--fontSize {
-  font-size: 20px; 
-  font-weight: bold;
-}
-
-
-.form__containerItem--buttons {
+.form__fieldset--newTask {
   display: grid;
   grid-template-columns: 1fr auto;
   grid-gap: 20px;
-  
+  background-color: white;
+  border-style: none;
+  padding: 20px;
+  margin-bottom: 5px;
+  word-break: break-word;
 }
-
 @media (max-width:767px) {
-  .form__containerItem--buttons {
-    grid-template-columns: 1fr;
-  }
+  .form__fieldset--newTask {
+      grid-template-columns: 1fr;
+}
 }
 
 .form__input {
   padding: 10px;
-  border-color: #ece9e9;
 }
 
 .form__button {
   padding: 10px;
   background-color: #008080;
   color: #ffffff;
-  border: none;
+  border-style:  none;
 }
 
-.form__list {
-  list-style: none;
-  padding:2px;
-  margin: 2px;
-}
 
 .form__listItem{
  display: grid;
  grid-template-columns: auto 1fr auto;
  align-items: center;
  border-bottom: solid 2px #ece9e9;
+ word-break: break-word;
 }
 
 .form__listItem--done {

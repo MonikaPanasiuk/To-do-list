@@ -1,0 +1,17 @@
+.section {
+    margin: 10px 0;
+    background-color: #ffffff;
+}
+
+.section__title {
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+    border-bottom: solid 1px #ece9e9;
+}
+
+
+
+
+
