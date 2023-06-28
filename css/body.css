@@ -1,7 +1,8 @@
 .body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 900px;
-    margin: auto;
+    max-width: 850px;
+    display: block;
+    margin: 0 auto;
     padding: 30px;
     background-color: #ece9e9;
 
