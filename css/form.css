@@ -21,10 +21,18 @@
 
 .form__button {
   padding: 10px;
-  background-color: #008080;
+  background-color: hsl(180, 30%, 68%);
   color: #ffffff;
   border-style: none;
 }
+.form__button:hover {
+  background-color: hsl(180, 30%, 73%);
+}
+
+.form__button:active {
+  background-color: hsl(180, 30%, 78%);
+}
+
 
 
 .form__listItem {
